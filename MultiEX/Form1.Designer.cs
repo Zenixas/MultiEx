@@ -36,7 +36,7 @@ namespace MultiEX
             this.button2 = new System.Windows.Forms.Button();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -80,7 +80,7 @@ namespace MultiEX
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(13, 74);
+            this.checkBox3.Location = new System.Drawing.Point(13, 97);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(96, 17);
             this.checkBox3.TabIndex = 5;
@@ -91,7 +91,7 @@ namespace MultiEX
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(112, 51);
+            this.checkBox4.Location = new System.Drawing.Point(13, 74);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(92, 17);
             this.checkBox4.TabIndex = 6;
@@ -99,16 +99,16 @@ namespace MultiEX
             this.checkBox4.UseVisualStyleBackColor = true;
             this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
             // 
-            // checkBox5
+            // checkBox2
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(112, 74);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(54, 17);
-            this.checkBox5.TabIndex = 7;
-            this.checkBox5.Text = "Trinity";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(13, 120);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(54, 17);
+            this.checkBox2.TabIndex = 7;
+            this.checkBox2.Text = "Trinity";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // Form1
             // 
@@ -116,7 +116,7 @@ namespace MultiEX
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(433, 217);
-            this.Controls.Add(this.checkBox5);
+            this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.button2);
@@ -141,7 +141,7 @@ namespace MultiEX
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.CheckBox checkBox2;
     }
 }
 
